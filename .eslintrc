@@ -1,0 +1,24 @@
+{
+  "extends": "eslint:recommended",
+  "env":{
+    "node":true,
+    "es6":true
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": "off",
+    "no-console":"off",
+    "no-unused-vars":"off",
+    "no-unreachable":"off",
+    "no-redeclare":"warn",
+    "arrow-parens": 0,
+    // allow async-await
+    "generator-star-spacing": 0,
+    // allow debugger during development
+    "indent": 0,
+    "pace-before-function-paren": 0,
+    "let": 0,
+    "smart-tabs": 0,
+    "no-tabs": 0
+  }
+}
