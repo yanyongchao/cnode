@@ -10,6 +10,7 @@ var users = require('./routes/users');
 var topics = require('./routes/topic');
 
 var app = express();
+require('./services/mongoose_service');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
